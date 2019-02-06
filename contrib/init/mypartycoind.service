@@ -1,0 +1,26 @@
+[Unit]
+Description=MpcX's distributed currency daemon
+After=network.target
+
+[Service]
+User=mypartycoin
+Group=mypartycoin
+
+Type=forking
+PIDFile=/var/lib/mypartycoind/mypartycoind.pid
+
+ExecStart=/usr/bin/mypartycoind -daemon -pid=/var/lib/mypartycoind/mypartycoind.pid \
+          -conf=/etc/mypartycoin/mypartycoin.conf -datadir=/var/lib/mypartycoind
+
+ExecStop=-/usr/bin/mypartycoin-cli -conf=/etc/mypartycoin/mypartycoin.conf \
+         -datadir=/var/lib/mypartycoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

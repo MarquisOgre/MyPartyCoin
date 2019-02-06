@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/mypartycoin_bg.qm</file>
+        <file alias="ca">locale/mypartycoin_ca.qm</file>
+        <file alias="cs">locale/mypartycoin_cs.qm</file>
+        <file alias="da">locale/mypartycoin_da.qm</file>
+        <file alias="de">locale/mypartycoin_de.qm</file>
+        <file alias="en">locale/mypartycoin_en.qm</file>
+        <file alias="en_US">locale/mypartycoin_en_US.qm</file>
+        <file alias="es">locale/mypartycoin_es.qm</file>
+        <file alias="fi">locale/mypartycoin_fi.qm</file>
+        <file alias="fr_FR">locale/mypartycoin_fr_FR.qm</file>
+        <file alias="hr">locale/mypartycoin_hr.qm</file>
+        <file alias="it">locale/mypartycoin_it.qm</file>
+        <file alias="ja">locale/mypartycoin_ja.qm</file>
+        <file alias="ko_KR">locale/mypartycoin_ko_KR.qm</file>
+        <file alias="nl">locale/mypartycoin_nl.qm</file>
+        <file alias="pl">locale/mypartycoin_pl.qm</file>
+        <file alias="pt">locale/mypartycoin_pt.qm</file>
+        <file alias="pt_BR">locale/mypartycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/mypartycoin_ro_RO.qm</file>
+        <file alias="ru">locale/mypartycoin_ru.qm</file>
+        <file alias="sk">locale/mypartycoin_sk.qm</file>
+        <file alias="sv">locale/mypartycoin_sv.qm</file>
+        <file alias="tr">locale/mypartycoin_tr.qm</file>
+        <file alias="uk">locale/mypartycoin_uk.qm</file>
+        <file alias="zh_CN">locale/mypartycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/mypartycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

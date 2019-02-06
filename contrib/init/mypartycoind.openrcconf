@@ -1,0 +1,26 @@
+# /etc/conf.d/mypartycoind: config file for /etc/init.d/mypartycoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mypartycoin/mypartycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mypartycoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mypartycoind.pid"
+
+# Where to write mypartycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mypartycoind"
+
+# User and group to own mypartycoind process
+#BITCOIND_USER="mypartycoin"
+#BITCOIND_GROUP="mypartycoin"
+
+# Path to mypartycoind executable
+#BITCOIND_BIN="/usr/bin/mypartycoind"
+
+# Nice value to run mypartycoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

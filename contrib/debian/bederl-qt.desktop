@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MyPartyCoin
+Comment=MyPartyCoin P2P Cryptocurrency
+Comment[fr]=MyPartyCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MyPartyCoin, eşten eşe kriptografik sanal para birimi
+Exec=mypartycoin-qt %u
+Terminal=false
+Type=Application
+Icon=mypartycoin128
+MimeType=x-scheme-handler/mypartycoin;
+Categories=Office;Finance;
